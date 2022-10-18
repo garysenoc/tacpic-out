@@ -54,7 +54,6 @@ export default function SignIn() {
     if (data.get('email') === 'admin' && data.get('email')) {
       Swal.fire({
         title: 'Success',
-        text: 'Do you want to continue',
         icon: 'success',
         confirmButtonText: 'Continue',
       });
@@ -104,7 +103,7 @@ export default function SignIn() {
               required
               fullWidth
               id='email'
-              label='username'
+              label='Username'
               name='email'
               autoComplete='email'
               autoFocus
